@@ -53,10 +53,10 @@ Default values:
 We provide a Dockerfile to run the code:
 
 Build the container:
-> docker build -t gen-data-glock .
+> docker build -t gen-data .
 
 Run the container:<br>
 The two volumns provide the data and the code.
-> docker run --name gen-data-glock --gpus all -v ./data:/data -v ./code:/code -it gen-data-glock
+> docker run --name gen-data --gpus all -v ./data:/data -v ./code:/code -it gen-data
 
 
