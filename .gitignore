@@ -172,3 +172,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore files in output dir
+data/*
+data-generator/data/out/*
+# Ignore files in input dir
+data-generator/data/in/*
+
+
+error-detection-cleaning-llm/*
