@@ -1,0 +1,30 @@
+{
+    "location":"<workflow config name>",
+    "modelConfigName": "<name of connection from the connection.json>",
+    "whichColMatchDict": "genDataWithPers",
+    "<workflow config name>":{    
+        "Paths":{
+            "Prompt":"/data",
+            "Data":"<Parent dir for the data input data, e.g.: /data>",
+            "Result":"/data/experiments_5000/"
+        },
+        "File":{
+	        "Input":["<list of input files keys, e.g., '1','2'>"]
+        }
+    },
+    "Files":{
+        "1":{
+            "name": "<name of a inputfile (parent dir can be specified in the paths list), e.g., trainGenData_adressPerson_dirtyPol_whole_025.csv> ",
+            "encoding":"None",
+            "delimiter":"None",
+            "OutputSuffix":"<any suffix for the output file, e.g., 025>"
+        },
+        "2":{
+            "name":"trainGenData_adressPerson_dirtyPol_whole_30.csv",
+            "encoding":"None",
+            "delimiter":"None",
+            "OutputSuffix":"30"
+        }        
+    }
+}
+

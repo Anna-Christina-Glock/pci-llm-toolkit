@@ -179,5 +179,3 @@ data-generator/data/out/*
 # Ignore files in input dir
 data-generator/data/in/*
 
-
-error-detection-cleaning-llm/*

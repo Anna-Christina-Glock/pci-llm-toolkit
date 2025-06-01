@@ -1,0 +1,9 @@
+{ 
+    "vllAi":{
+        "llm-package":"openai",
+        "runtime_environment":"<name of the environment, saved into the csv output>",
+        "modelname":"<name of the model to use, e.g. casperhansen/llama-3.3-70b-instruct-awq",
+        "api_key":"<api_key to your model>",
+        "base_url":"<url to your model>"
+    }    
+}
