@@ -48,6 +48,11 @@ Default values:
 > pollPerc = ["025","05","15","20","25","30","40","75"] \
 > dataRows = 5000  
 
+## CMD
+Run via command line:
+> pip install -r requirements.txt \
+> cd code \
+> python createPolluteData.py
 
 ## Docker
 We provide a Dockerfile to run the code:

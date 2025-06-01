@@ -29,7 +29,8 @@ parameter.json ... contains parameters to configure the workflow
 
 ## CMD
 run via command line:
-> cd code/
+> pip install -r requirements.txt \
+> cd code \
 > pyhton main.py
 
 ## Docker
