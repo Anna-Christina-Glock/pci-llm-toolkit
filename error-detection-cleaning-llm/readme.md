@@ -1,7 +1,7 @@
 # Error Detection and Cleaning with Large Language Models (LLM)
 This Python program reads records from a list of .csv files. The data is used to fill out a prompt template, and the filled-out prompt is sent to the LLM. The result of the LLM is parsed and saved to a .csv file. 
 
-The prompt that we use can be found in [prompt.json](error-detection-cleaning-llm\data\experiments_5000\prompt.json). For our experiments, we use 'p4', but we also provide three prompts that are earlier stages of 'p4'. Note that due the addresses we used being Austrian the prompts are written in German. 
+The prompt that we use can be found in [prompt.json](data/experiments_5000/prompt.json). For our experiments, we use 'p4', but we also provide three prompts that are earlier stages of 'p4'. Note that due the addresses we used being Austrian the prompts are written in German. 
 
 ## Parameter
 There are two files used to set important parameters.\
